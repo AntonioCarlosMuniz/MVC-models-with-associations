@@ -190,14 +190,23 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AlunosController.cs" />
+    <Compile Include="Controllers\DisciplinasController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ProfessoresController.cs" />
+    <Compile Include="Controllers\TurmasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Aluno.cs" />
+    <Compile Include="Models\ClassContext.cs" />
+    <Compile Include="Models\Disciplina.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\Professor.cs" />
+    <Compile Include="Models\Turma.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -258,6 +267,26 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Alunos\Create.cshtml" />
+    <Content Include="Views\Alunos\Delete.cshtml" />
+    <Content Include="Views\Alunos\Details.cshtml" />
+    <Content Include="Views\Alunos\Edit.cshtml" />
+    <Content Include="Views\Alunos\Index.cshtml" />
+    <Content Include="Views\Disciplinas\Create.cshtml" />
+    <Content Include="Views\Disciplinas\Delete.cshtml" />
+    <Content Include="Views\Disciplinas\Details.cshtml" />
+    <Content Include="Views\Disciplinas\Edit.cshtml" />
+    <Content Include="Views\Disciplinas\Index.cshtml" />
+    <Content Include="Views\Professores\Create.cshtml" />
+    <Content Include="Views\Professores\Delete.cshtml" />
+    <Content Include="Views\Professores\Details.cshtml" />
+    <Content Include="Views\Professores\Edit.cshtml" />
+    <Content Include="Views\Professores\Index.cshtml" />
+    <Content Include="Views\Turmas\Create.cshtml" />
+    <Content Include="Views\Turmas\Delete.cshtml" />
+    <Content Include="Views\Turmas\Details.cshtml" />
+    <Content Include="Views\Turmas\Edit.cshtml" />
+    <Content Include="Views\Turmas\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
