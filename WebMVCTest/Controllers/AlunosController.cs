@@ -11,6 +11,7 @@ using WebMVCTest.Models;
 
 namespace WebMVCTest.Controllers
 {
+    [Authorize]
     public class AlunosController : Controller
     {
         private ClassContext db = new ClassContext();

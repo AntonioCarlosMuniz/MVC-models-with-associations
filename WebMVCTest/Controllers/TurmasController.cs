@@ -11,6 +11,7 @@ using WebMVCTest.Models;
 
 namespace WebMVCTest.Controllers
 {
+    [Authorize]
     public class TurmasController : Controller
     {
         private ClassContext db = new ClassContext();
